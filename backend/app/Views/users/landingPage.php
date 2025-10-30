@@ -49,9 +49,9 @@
             <a href="#" class="hover:text-[var(--primary)] transition">Blog</a>
             <a href="#" class="hover:text-[var(--primary)] transition">Contact</a>
         </nav>
-        <button class="border border-[var(--secondary)] text-[var(--secondary)] px-4 py-2 rounded hover:bg-[var(--secondary)] hover:text-[var(--accent)] transition">
-            Login
-        </button>
+        <a href="/login"><button class="border border-[var(--secondary)] text-[var(--secondary)] px-4 py-2 rounded hover:bg-[var(--secondary)] hover:text-[var(--accent)] transition">
+                Login
+            </button></a>
     </header>
 
     <!-- 🖼️ HERO SECTION -->
