@@ -38,21 +38,7 @@
         }
     </style>
 
-    <!-- 🏛️ HEADER -->
-    <header class="flex justify-between items-center px-10 py-6 border-b border-[var(--secondary)]/20">
-        <h1 class="text-2xl font-semibold text-[var(--secondary)]">🔥 Edo Ember Gallery</h1>
-        <nav class="flex space-x-8 text-[var(--neutral)] text-sm md:text-base">
-            <a href="#" class="hover:text-[var(--primary)] transition">Home</a>
-            <a href="#" class="hover:text-[var(--primary)] transition">Exhibits</a>
-            <a href="#" class="hover:text-[var(--primary)] transition">Artists</a>
-            <a href="#" class="hover:text-[var(--primary)] transition">Shop</a>
-            <a href="#" class="hover:text-[var(--primary)] transition">Blog</a>
-            <a href="#" class="hover:text-[var(--primary)] transition">Contact</a>
-        </nav>
-        <a href="/login"><button class="border border-[var(--secondary)] text-[var(--secondary)] px-4 py-2 rounded hover:bg-[var(--secondary)] hover:text-[var(--accent)] transition">
-                Login
-            </button></a>
-    </header>
+    <?= view('components/header'); ?>
 
     <!-- 🖼️ HERO SECTION -->
     <section class="relative bg-cover bg-center bg-no-repeat px-10 py-24 md:py-32 animate-fadeInUp"
@@ -232,44 +218,13 @@
             <?php endforeach; ?>
         </div>
     </section>
-
-    <!-- ✉️ NEWSLETTER CTA -->
-    <section class="reveal-on-scroll relative py-16 px-6 md:px-10 text-center h-64 md:h-80"
-        style="background-image: url('https://i.pinimg.com/736x/fa/49/c8/fa49c80f1f29e6c329e9639086d1a50a.jpg'); background-size: cover; background-position: center;">
-        <div class="absolute inset-0 bg-black/50"></div>
-        <div class="relative z-10 flex flex-col items-center justify-center h-full px-6 md:px-10">
-            <h3 class="text-3xl font-bold text-[var(--neutral)] mb-4">Stay Updated</h3>
-            <p class="text-[var(--neutral)]/80 mb-4 max-w-md text-center">Subscribe to our newsletter for the latest exhibits and featured artists.</p>
-            <form class="max-w-md w-full flex flex-col sm:flex-row gap-4">
-                <input type="email" placeholder="Your email" class="flex-1 px-4 py-2 rounded border border-[var(--secondary)] bg-[#1b1b1b] text-[var(--neutral)] focus:outline-none">
-                <button class="px-6 py-2 rounded border border-[var(--secondary)] text-[var(--neutral)] hover:bg-[var(--secondary)] hover:text-[var(--accent)] transition">
-                    Subscribe
-                </button>
-            </form>
-        </div>
-    </section>
-
-
-    <!-- ⚓ FOOTER -->
-    <footer class="border-t border-[var(--secondary)]/20 py-10 text-center text-[var(--neutral)]/70 text-sm animate-fadeInUp">
-        <div class="space-y-3">
-            <p>© 2025 Edo Ember Gallery. All Rights Reserved.</p>
-            <div class="flex justify-center space-x-4">
-                <a href="#" class="text-[var(--secondary)] hover:text-[var(--primary)]">Instagram</a>
-                <a href="#" class="text-[var(--secondary)] hover:text-[var(--primary)]">Facebook</a>
-                <a href="#" class="text-[var(--secondary)] hover:text-[var(--primary)]">Twitter</a>
-                <a href="#" class="text-[var(--secondary)] hover:text-[var(--primary)]">LinkedIn</a>
-                <p> | </p>
-                <a href="/moodBoard" class="text-[var(--secondary)] hover:text-[var(--primary)]">Mood Board</a>
-                <a href="/roadMap" class="text-[var(--secondary)] hover:text-[var(--primary)]">Road Map</a>
-            </div>
-            <p class="text-[var(--neutral)]/50 text-xs mt-4">Designed with 🔥 by Litten Team</p>
-        </div>
-    </footer>
+    <?= view('components/cta'); ?>
 
     <button id="scrollTopBtn" class="hidden fixed bottom-8 right-8 bg-[var(--secondary)] text-[var(--accent)] px-4 py-2 rounded-full shadow-md hover:bg-[var(--primary)] transition">
         ↑ Top
     </button>
+
+    <?= view('components/footer'); ?>
 
     <script>
         document.addEventListener("DOMContentLoaded", () => {
