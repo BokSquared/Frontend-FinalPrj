@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <?= view('components/head', ['title' => '🍌Edo Ember Gallery Road Map']) ?>
+    <?= view('components/head', ['title' => '🔥 Road Map']) ?>
 </head>
 
 <body class="relative min-h-screen bg-cover bg-center text-[var(--neutral)]"
