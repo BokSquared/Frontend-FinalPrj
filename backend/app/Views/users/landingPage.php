@@ -260,7 +260,7 @@
                 <a href="#" class="text-[var(--secondary)] hover:text-[var(--primary)]">Twitter</a>
                 <a href="#" class="text-[var(--secondary)] hover:text-[var(--primary)]">LinkedIn</a>
                 <p> | </p>
-                <a href="#" class="text-[var(--secondary)] hover:text-[var(--primary)]">Mood Board</a>
+                <a href="/moodBoard" class="text-[var(--secondary)] hover:text-[var(--primary)]">Mood Board</a>
                 <a href="#" class="text-[var(--secondary)] hover:text-[var(--primary)]">Road Map</a>
             </div>
             <p class="text-[var(--neutral)]/50 text-xs mt-4">Designed with 🔥 by Litten Team</p>
