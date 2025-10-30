@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <?= view('components/head', ['title' => 'Login']) ?>
+    <?= view('components/head', ['title' => '🔥 Login']) ?>
 </head>
 
 <body class="bg-[var(--accent)] flex items-center justify-center min-h-screen font-sans">
