@@ -31,7 +31,9 @@
                     <a href="#" class="text-[var(--secondary)] hover:underline text-sm">Forgot password?</a>
                 </div>
 
-                <button type="submit" class="bg-[var(--primary)] text-[var(--neutral)] font-bold py-2 rounded-lg hover:opacity-90 transition">Log In</button>
+                <button type="submit" class="border-2 border-[var(--primary)] text-[var(--primary)] font-bold py-2 rounded-lg transition hover:bg-[var(--primary)] hover:text-[var(--neutral)] hover:shadow-[0_0_15px_var(--primary)]">
+                    Log In
+                </button>
 
                 <div class="divider flex items-center text-[var(--secondary)] text-sm my-4">
                     <span class="flex-1 border-b border-[var(--secondary)]"></span>

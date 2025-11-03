@@ -11,7 +11,7 @@
 
         <div class="md:flex-1 bg-black/70 p-10 flex flex-col justify-center" style="background: linear-gradient(90deg, var(--accent), #1c1c1cff);">
             <h2 class="text-[var(--secondary)] text-3xl md:text-4xl font-bold mb-2">Create Account</h2>
-            <p class="text-[var(--neutral)]/80 mb-6">Join Edo Ember Gallery today</p>
+            <p class="text-[var(--neutral)]/80 mb-6">Join Edo Ember Gallery today!</p>
 
             <form class="flex flex-col gap-4">
                 <input type="text" name="first_name" placeholder="First Name"
@@ -25,9 +25,9 @@
                 <input type="password" name="password" placeholder="Password"
                     class="px-4 py-2 rounded-lg border border-[var(--secondary)] bg-[#1b1b1b] text-[var(--neutral)] focus:outline-none">
 
-                <button type="submit"
-                    class="bg-[var(--primary)] text-[var(--neutral)] font-bold py-2 rounded-lg hover:opacity-90 transition">Sign
-                    Up</button>
+                <button type="submit" class="border-2 border-[var(--primary)] text-[var(--primary)] font-bold py-2 rounded-lg transition hover:bg-[var(--primary)] hover:text-[var(--neutral)] hover:shadow-[0_0_15px_var(--primary)]">
+                    Sign Up
+                </button>
 
                 <div class="divider flex items-center text-[var(--secondary)] text-sm my-4">
                     <span class="flex-1 border-b border-[var(--secondary)]"></span>
