@@ -53,10 +53,8 @@
             <p class="text-[var(--neutral)]/80 mt-6 leading-relaxed">
                 Edo Ember Gallery brings together timeless brushwork and modern pixels —
                 a celebration of the art that burns bright across generations.
-            </p>
-            <button class="mt-8 border border-[var(--secondary)] text-[var(--secondary)] px-6 py-2 rounded hover:bg-[var(--secondary)] hover:text-[var(--accent)] transition">
-                Explore Collection
-            </button>
+            </p><br>
+            <?= view('components/buttons/button_border', ['label' => 'Explore Collection', 'href' => '#']); ?>
         </div>
     </section>
 
@@ -76,9 +74,7 @@
                     From curated exhibitions to collectible artbooks, we invite you to experience art that burns
                     with both heritage and innovation.
                 </p>
-                <button class="border border-[var(--secondary)] text-[var(--secondary)] px-6 py-2 rounded hover:bg-[var(--secondary)] hover:text-[var(--accent)] transition">
-                    Learn More
-                </button>
+                <?= view('components/buttons/button_border', ['label' => 'Learn More', 'href' => '#']); ?>
             </div>
             <div class="overflow-hidden rounded-xl shadow-lg">
                 <img src="https://i.pinimg.com/1200x/59/0a/16/590a1634883ca60ceb1dc223aad4b32d.jpg"
@@ -106,9 +102,7 @@
                     expressive art that explores human nature and survival in a chaotic world. His work balances
                     realism and stylization — bold linework, raw emotion, and a fearless sense of motion.
                 </p>
-                <button class="border border-[var(--secondary)] text-[var(--secondary)] px-6 py-2 rounded hover:bg-[var(--secondary)] hover:text-[var(--accent)] transition">
-                    Discover More
-                </button>
+                <?= view('components/buttons/button_border', ['label' => 'Discover More', 'href' => '#']); ?>
             </div>
         </div>
     </section>
@@ -148,10 +142,8 @@
             <h3 class="text-4xl md:text-5xl font-bold mb-4">Virtual Gallery Tour</h3>
             <p class="text-[var(--neutral)]/80 max-w-2xl mx-auto">
                 Explore our curated spaces from the comfort of your screen — feel the ambiance and immerse yourself in the art.
-            </p>
-            <button class="mt-6 border border-[var(--secondary)] text-[var(--secondary)] px-6 py-2 rounded hover:bg-[var(--secondary)] hover:text-[var(--accent)] transition">
-                Start Tour
-            </button>
+            </p><br>
+            <?= view('components/buttons/button_secondary', ['label' => 'Start Tour', 'href' => '#']); ?>
         </div>
     </section>
 

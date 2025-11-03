@@ -15,8 +15,6 @@
     </nav>
 
     <a href="/login">
-        <button class="border border-[var(--secondary)] text-[var(--secondary)] px-4 py-2 rounded hover:bg-[var(--secondary)] hover:text-[var(--accent)] transition">
-            Login
-        </button>
+        <?= view('components/buttons/button_primary', ['label' => 'Login', 'href' => '/login']); ?>
     </a>
 </header>

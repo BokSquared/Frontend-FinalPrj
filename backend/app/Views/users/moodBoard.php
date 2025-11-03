@@ -69,10 +69,11 @@
 
     <!-- FOUR BUTTONS -->
     <section class="max-w-6xl mx-auto flex flex-wrap justify-center gap-6 py-8 px-6">
-        <button class="px-6 py-2 border rounded">Button 1</button>
-        <button class="px-6 py-2 border rounded">Button 2</button>
-        <button class="px-6 py-2 border rounded">Button 3</button>
-        <button class="px-6 py-2 border rounded">Button 4</button>
+        <?= view('components/buttons/button_primary', ['label' => 'Primary', 'href' => '#']); ?>
+        <?= view('components/buttons/button_secondary', ['label' => 'Secondary', 'href' => '#']); ?>
+        <?= view('components/buttons/button_border', ['label' => 'Border', 'href' => '#']); ?>
+        <?= view('components/buttons/button_primary', ['label' => 'Disabled', 'href' => '#', 'disable' => 'true']); ?>
+
     </section>
 
     <!-- CARD SAMPLES -->
